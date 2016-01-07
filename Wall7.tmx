@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="float" tilewidth="32" tileheight="32">
+  <image source="Textuer/float.png" width="32" height="32"/>
+ </tileset>
+ <layer name="wall" width="30" height="20" opacity="0.1">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDFXAOECY1v4ZBaNgFIyCoQ4AtPAAIQ==
+  </data>
+ </layer>
+ <objectgroup name="rolling">
+  <object x="577" y="114">
+   <ellipse/>
+  </object>
+  <object x="576" y="480">
+   <ellipse/>
+  </object>
+  <object x="64" y="224">
+   <ellipse/>
+  </object>
+  <object x="224" y="64">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="collision">
+  <object x="512" y="384" width="31.5" height="31.625"/>
+  <object x="544" y="384" width="31.75" height="31.625"/>
+  <object x="576" y="384" width="31.875" height="31.625"/>
+  <object x="608" y="384" width="32.5" height="31.75"/>
+  <object x="640" y="384" width="31.75" height="31.75"/>
+  <object x="672" y="384" width="31.875" height="31.75"/>
+  <object x="704" y="384" width="32.375" height="31.875"/>
+  <object x="736" y="256" width="31.75" height="31.875"/>
+  <object x="768" y="256" width="31.5" height="32"/>
+  <object x="800" y="256" width="32.125" height="32"/>
+  <object x="832" y="256" width="32.125" height="32"/>
+  <object x="864" y="256" width="32" height="31.875"/>
+  <object x="896" y="256" width="32" height="32"/>
+  <object x="928" y="256" width="32.625" height="32"/>
+  <object x="192" y="320" width="31.75" height="31.75"/>
+  <object x="224" y="320" width="31.875" height="31.75"/>
+  <object x="256" y="320" width="32.375" height="31.875"/>
+  <object x="128" y="320" width="31.875" height="31.625"/>
+  <object x="160" y="320" width="32.5" height="31.75"/>
+ </objectgroup>
+ <objectgroup name="sensor">
+  <object x="832" y="160">
+   <ellipse/>
+  </object>
+  <object x="448" y="256">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="exit">
+  <object x="768" y="544">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

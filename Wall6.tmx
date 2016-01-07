@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="float" tilewidth="32" tileheight="32">
+  <image source="Textuer/float.png" width="32" height="32"/>
+ </tileset>
+ <layer name="wall" width="30" height="20" opacity="0.1">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDFXAOACYHv4ZBaNgFIyCoQ4Ar8QAIA==
+  </data>
+ </layer>
+ <objectgroup name="rolling">
+  <object x="576" y="425">
+   <ellipse/>
+  </object>
+  <object x="576" y="183">
+   <ellipse/>
+  </object>
+  <object x="100" y="183">
+   <ellipse/>
+  </object>
+  <object x="100" y="425">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="collision">
+  <object x="512" y="288" width="31.5" height="31.625"/>
+  <object x="544" y="288" width="31.75" height="31.625"/>
+  <object x="576" y="288" width="31.875" height="31.625"/>
+  <object x="608" y="288" width="32.5" height="31.75"/>
+  <object x="640" y="288" width="31.75" height="31.75"/>
+  <object x="672" y="288" width="31.875" height="31.75"/>
+  <object x="704" y="288" width="32.375" height="31.875"/>
+  <object x="736" y="288" width="31.75" height="31.875"/>
+  <object x="768" y="288" width="31.5" height="32"/>
+  <object x="800" y="288" width="32.125" height="32"/>
+  <object x="832" y="288" width="32.125" height="32"/>
+  <object x="64" y="288" width="31.75" height="31.75"/>
+  <object x="96" y="288" width="31.875" height="31.75"/>
+  <object x="128" y="288" width="32.375" height="31.875"/>
+  <object x="0" y="288" width="31.875" height="31.625"/>
+  <object x="32" y="288" width="32.5" height="31.75"/>
+ </objectgroup>
+ <objectgroup name="sensor">
+  <object x="320" y="288">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="exit">
+  <object x="800" y="512">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>
